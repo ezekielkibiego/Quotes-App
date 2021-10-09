@@ -7,9 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class QuotesComponent implements OnInit {
 
-  constructor() { }
+    title = 'quotes';
+    quotes: string[];
+    // quote = 'We build our computers the way we build our cities—over time, without a plan, on top of ruins.'
+
+  constructor() {
+      this.quotes = ['We build our computers the way we build our cities—over time, without a plan, on top of ruins.', 'In the end, it all comes down to 0 and 1', 'This is what makes them good engineers. Perfectionism: incinerating perfectionism.'];
+  }
 
   ngOnInit(): void {
   }
 
 }
+
