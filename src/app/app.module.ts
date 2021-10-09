@@ -4,15 +4,15 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { QuotesComponent } from './quotes/quotes.component';
-import { GoalDetailsComponent } from './goal-details/goal-details.component';
-import { GoalFormComponent } from './goal-form/goal-form.component';
+import { QuoteDetailsComponent } from './quote-details/quote-details.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     QuotesComponent,
-    GoalDetailsComponent,
-    GoalFormComponent
+    QuoteDetailsComponent,
+    QuoteDetailsComponent
   ],
   imports: [
     BrowserModule,
