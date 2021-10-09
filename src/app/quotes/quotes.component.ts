@@ -9,8 +9,8 @@ import { Quote } from '../quote';
 export class QuotesComponent implements OnInit {
   
      quotes:Quote[] = [
-          new Quote(1,'This is what makes them good engineers. Perfectionism: incinerating perfectionism.','― Ellen Ullman'),
-          new Quote(2,'Coding like poetry should be short and concise','― Santosh Kalwar')
+          new Quote(1,'This is what makes them good engineers. Perfectionism: incinerating perfectionism.','― Ellen Ullman', new Date(2021,10,8)),
+          new Quote(2,'Coding like poetry should be short and concise','― Santosh Kalwar', new Date(2021,10,8))
         ];
 
         completeQuote(isComplete: any, index: number){
@@ -36,5 +36,12 @@ export class QuotesComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  addNewQuote(quote: Quote){
+    let quoteLength = this.quotes.length;
+    quote.id = quoteLength+1;
+    quote.completeDate = new Date(quote.completeDate)
+    this.quotes.push(quote)
+  }
 }
+
 
