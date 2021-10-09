@@ -5,6 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { QuotesComponent } from './quotes/quotes.component';
 import { QuoteDetailsComponent } from './quote-details/quote-details.component';
+import { QuoteFormComponent } from './quote-form/quote-form.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -12,11 +14,13 @@ import { QuoteDetailsComponent } from './quote-details/quote-details.component';
     AppComponent,
     QuotesComponent,
     QuoteDetailsComponent,
-    QuoteDetailsComponent
+    QuoteDetailsComponent,
+    QuoteFormComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
