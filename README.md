@@ -48,7 +48,7 @@ Click "Show More" Button:
 </ul>
 
 ## Support and contact details
-In case of any contributions or questions, email ezekiel.nyambane@student.moringaschool.com or kibiezekiel@gmail.com
+In case of any contributions or questions, email ezekiel.nyambane@student.moringaschool.com/kibiezekiel@gmail.com
 
 ### License
 
