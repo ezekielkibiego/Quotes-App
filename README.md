@@ -36,7 +36,7 @@ No known Bugs yet
 </ul>
 
 ## BDD
-Go to show more;
+Click "Show More" Button:
 
 <ul>
 <li>See more details like, author, posted by, vote uo/down and Delete option</li>
