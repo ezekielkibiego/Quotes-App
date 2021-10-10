@@ -18,15 +18,17 @@
   <div class="row">
     <div class="col-md-6">
       <div *ngFor='let quote of quotes;let i = index'>
-        <div>
-          <p><i class="fas fa-quote-left"></i>{{quote.name}}  <i class="fas fa-quote-right"> &nbsp;&nbsp;&nbsp; </i>{{quote.completeDate|date|uppercase}}</p>
-          <button (click)='toggleDetails(i)' class="btn btn-primary">Show More</button>
-        </div>
-        <h4 class="card-title" appHighlightQuote ></h4>
-        
-              <p class="card-text" id="param"></p>
-        <div *ngIf='quote.showAuthor'>
-          <app-quote-details [quote]='quote' (isComplete) = 'deleteQuote($event,i)'></app-quote-details>
+        <div class="card">
+          <div class="text-center">
+            <p><i class="fas fa-quote-left"></i>{{quote.name}}  <i class="fas fa-quote-right"> &nbsp;&nbsp;&nbsp; </i>{{quote.completeDate|date|uppercase}}</p>
+            <button (click)='toggleDetails(i)' class="btn btn-primary">Show More</button>
+          </div>
+          <h4 class="card-title" appHighlightQuote ></h4>
+          
+                <p class="card-text" id="param"></p>
+          <div *ngIf='quote.showAuthor'>
+            <app-quote-details [quote]='quote' (isComplete) = 'deleteQuote($event,i)'></app-quote-details>
+          </div>
         </div>
       </div>
     </div>

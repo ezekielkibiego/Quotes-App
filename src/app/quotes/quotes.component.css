@@ -27,6 +27,15 @@
 
   .toolbar #twitter-logo:hover {
     opacity: 0.8;
-    background-color: blue;
+    background-color: rgba(24, 24, 26, 0.068);
     border-radius: 30px;
   }
+  .card{
+    background-color: rgba(24, 24, 26, 0.068);
+    margin-bottom: 15px;
+    padding: 10px;
+  
+}
+.card:hover{
+  box-shadow: 0 0 10px , 0 0 20px rgb(112, 108, 108), 0 0 40px rgb(112, 108, 108);
+}
