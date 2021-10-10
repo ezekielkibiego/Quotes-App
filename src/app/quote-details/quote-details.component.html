@@ -1,7 +1,26 @@
-
-    <p>
-        {{quote.author}}
-    </p>
-    <p> {{quote.completeDate|dateCount}}</p>
-    <button (click)= 'quoteDelete(true)'>Delete Quote</button>
-    
+<div class="container">
+     <div class="row">
+          <div class="col-md-6">
+               <p>
+                    {{quote.author}} ,
+                    {{quote.completeDate|dateCount}} days ago
+               </p>
+               <!-- <p> {{quote.completeDate|dateCount}} days ago</p> -->
+          </div>
+          <div class="col-md-6">
+               
+               <p>
+                    Posted by {{quote.yourName}}
+               </p>
+          </div>
+          <div class="col-md-6">
+               <i (click)='likeButtonClick()' class="fas fa-thumbs-up fa-2x thumb-up"></i>
+                    {{numberOfLikes}}
+               <i (click)='dislikeButtonClick()' class="fas fa-thumbs-down fa-2x thumb-down"></i>
+                    {{numberOfDislikes}} <br><br>
+          </div>
+          <div class="col-md-6">
+               <button (click)= 'quoteDelete(true)'>Delete Quote</button>
+          </div>
+     </div>
+</div>  

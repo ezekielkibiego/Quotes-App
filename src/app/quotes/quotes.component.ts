@@ -9,8 +9,8 @@ import { Quote } from '../quote';
 export class QuotesComponent implements OnInit {
   
      quotes:Quote[] = [
-          new Quote(1,'This is what makes them good engineers. Perfectionism: incinerating perfectionism.','― Ellen Ullman', new Date(2021,10,8)),
-          new Quote(2,'Coding like poetry should be short and concise','― Santosh Kalwar', new Date(2021,10,8))
+          new Quote(1, 'Ezekiel Kibiego',  'This is what makes them good engineers. Perfectionism: incinerating perfectionism.   ','By Ellen Ullman', new Date(2021,10,8)),
+          new Quote(2, 'Ezekiel Kibiego', 'Coding like poetry should be short and concise.  ','By Santosh Kalwar', new Date(2021,10,8))
         ];
 
         completeQuote(isComplete: any, index: number){
@@ -20,7 +20,8 @@ export class QuotesComponent implements OnInit {
         }
         
         toggleDetails(index:  number){
-          this.quotes[index].showAuthor = !this.quotes[index].showAuthor;
+          this.quotes[index].showAuthor = !this.quotes[index].showAuthor ;
+          this.quotes[index].showYourName = !this.quotes[index].showYourName ;
         }
         deleteQuote(isComplete: any, index: number){
             if (isComplete) {

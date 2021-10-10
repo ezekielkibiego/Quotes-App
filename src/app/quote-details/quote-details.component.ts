@@ -13,6 +13,14 @@ export class QuoteDetailsComponent implements OnInit {
   quote!: Quote;
   @Output() isComplete = new EventEmitter<boolean>();
 
+  numberOfLikes : number = 0;
+numberOfDislikes: number = 0;
+likeButtonClick() {
+  this.numberOfLikes++;
+}
+dislikeButtonClick(){
+  this.numberOfDislikes++;
+}
   quoteComplete(complete:boolean){
     this.isComplete.emit(complete);
   }
@@ -21,6 +29,7 @@ export class QuoteDetailsComponent implements OnInit {
     this.isComplete.emit(complete);
   }
 
+ 
   constructor() { }
 
   ngOnInit() {
