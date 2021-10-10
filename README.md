@@ -29,6 +29,7 @@ No known Bugs yet
 <ul>
 <li>ANGULAR</li>
 <li>TYPESCRIPT</li>
+<li>JAVASCRIPT</li>
 <li>HTML</li>
 <li>CSS</li>
 <li>BOOTSTRAP</li>
