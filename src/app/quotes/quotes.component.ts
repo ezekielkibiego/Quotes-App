@@ -9,7 +9,7 @@ import { Quote } from '../quote';
 export class QuotesComponent implements OnInit {
   
      quotes:Quote[] = [
-          new Quote(1, 'Ezekiel Kibiego',  'This is what makes them good engineers. Perfectionism: incinerating perfectionism.   ','Ellen Ullman', new Date(2021,10,8)),
+          new Quote(1, 'Ezekiel Kibiego',  'This is what makes them good engineers. Perfectionism: incinerating perfectionism.','Ellen Ullman', new Date(2021,10,8)),
           new Quote(2, 'Ezekiel Kibiego', 'If you think technology can solve your security problems, then you don’t understand the problems and you don’t understand the technology.','Santosh Kalwar', new Date(2021,10,8)),
           new Quote(3, 'Ezekiel Kibiego', 'Investing in tomorrow’s technology today is more critical than ever', 'Bill Gates', new Date(2021,10,8))
         ];
@@ -26,7 +26,7 @@ export class QuotesComponent implements OnInit {
         }
         deleteQuote(isComplete: any, index: number){
             if (isComplete) {
-              let toDelete = confirm(`Are you sure you want to delete ${this.quotes[index].name}?`)
+              let toDelete = confirm(`Are you sure you want to delete "${this.quotes[index].name}"?`)
         
               if (toDelete){
                 this.quotes.splice(index,1)
