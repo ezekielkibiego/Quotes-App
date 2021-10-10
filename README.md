@@ -18,7 +18,7 @@ This is a Quotes App that allows the use to add more quotes and also vote up or 
 </ul>
 
 ### Live Link
-
+https://ezekielkibiego.github.io/Quotes-App/
 
 ## Known Bugs
 
