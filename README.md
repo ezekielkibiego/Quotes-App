@@ -3,7 +3,7 @@
 #### By **Ezekiel Kibiego**
 
 ## ScreenShot
-<img src="assets/Screenshot.png">
+<img src="">
 
 ## Description
 This is a Quotes App that allows the use to add more quotes and also vote up or down other quotes.
@@ -19,7 +19,6 @@ This is a Quotes App that allows the use to add more quotes and also vote up or 
 
 ### Live Link
 
-https://ezekielkibiego.github.io/Hot-Pizza-Paradise/
 
 ## Known Bugs
 
