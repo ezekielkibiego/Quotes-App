@@ -3,7 +3,7 @@
 #### By **Ezekiel Kibiego**
 
 ## ScreenShot
-<img src="">
+<img src="src/assets/Screenshot.png">
 
 ## Description
 This is a Quotes App that allows the use to add more quotes and also vote up or down other quotes.
