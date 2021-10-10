@@ -19,7 +19,7 @@
     <div class="col-md-6">
       <div *ngFor='let quote of quotes;let i = index'>
         <div>
-          <h6>{{quote.name}}  {{quote.completeDate|date|uppercase}}</h6>
+          <p><i class="fas fa-quote-left"></i>{{quote.name}}  <i class="fas fa-quote-right"> &nbsp;&nbsp;&nbsp; </i>{{quote.completeDate|date|uppercase}}</p>
           <button (click)='toggleDetails(i)' class="btn btn-primary">Show More</button>
         </div>
         <h4 class="card-title" appHighlightQuote ></h4>

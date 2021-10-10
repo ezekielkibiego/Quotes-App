@@ -9,10 +9,12 @@ import { Quote } from '../quote';
 export class QuotesComponent implements OnInit {
   
      quotes:Quote[] = [
-          new Quote(1, 'Ezekiel Kibiego',  'This is what makes them good engineers. Perfectionism: incinerating perfectionism.   ','By Ellen Ullman', new Date(2021,10,8)),
-          new Quote(2, 'Ezekiel Kibiego', 'Coding like poetry should be short and concise.  ','By Santosh Kalwar', new Date(2021,10,8))
+          new Quote(1, 'Ezekiel Kibiego',  'This is what makes them good engineers. Perfectionism: incinerating perfectionism.   ','Ellen Ullman', new Date(2021,10,8)),
+          new Quote(2, 'Ezekiel Kibiego', 'Coding like poetry should be short and concise.  ',' Santosh Kalwar', new Date(2021,10,8)),
+          new Quote(3, 'Ezekiel Kibiego', 'If you think technology can solve your security problems, then you don’t understand the problems and you don’t understand the technology.','Santosh Kalwar', new Date(2021,10,8)),
+          new Quote(4, 'Ezekiel Kibiego', 'Investing in tomorrow’s technology today is more critical than ever', 'Bill Gates', new Date(2021,10,8))
         ];
-
+        
         completeQuote(isComplete: any, index: number){
           if (isComplete) {
             this.quotes.splice(index,1);

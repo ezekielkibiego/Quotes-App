@@ -2,7 +2,7 @@
      <div class="row">
           <div class="col-md-6">
                <p>
-                    {{quote.author}} ,
+                    —{{quote.author}} ,
                     {{quote.completeDate|dateCount}} days ago
                </p>
                <!-- <p> {{quote.completeDate|dateCount}} days ago</p> -->
@@ -15,7 +15,7 @@
           </div>
           <div class="col-md-6">
                <i (click)='likeButtonClick()' class="fas fa-thumbs-up fa-2x thumb-up"></i>
-                    {{numberOfLikes}}
+                    {{numberOfLikes}} &nbsp;&nbsp;&nbsp;
                <i (click)='dislikeButtonClick()' class="fas fa-thumbs-down fa-2x thumb-down"></i>
                     {{numberOfDislikes}} <br><br>
           </div>
