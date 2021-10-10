@@ -1,0 +1,12 @@
+.vote{
+    color: green;
+}
+.vote1{
+    color: red;
+}
+button{
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}

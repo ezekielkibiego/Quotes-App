@@ -7,3 +7,9 @@
 .form:hover{
     box-shadow: 0 0 10px , 0 0 20px rgb(112, 108, 108), 0 0 40px rgb(112, 108, 108);
 }
+button{
+    background-color: rgb(112, 108, 108);
+    border: none;
+    border-radius: 5px;
+    color: white;
+  }
