@@ -21,3 +21,7 @@ button{
     background-color: white;
     color: rgb(27, 179, 65);
   }
+  ::placeholder{
+    color: rgb(27, 179, 65);
+  }
+  

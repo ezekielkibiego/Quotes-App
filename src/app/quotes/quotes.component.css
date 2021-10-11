@@ -29,13 +29,12 @@
   
   .card{
     background-color: rgba(24, 24, 26, 0.068);
-    margin-bottom: 15px;
-    padding: 10px;
-    border-radius: 30px;
-}
-.card:hover{
-  border-radius: 30px;
-}
+    margin-bottom: 10px;
+    padding: 20px;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    
+  }
 button{
   background-color: rgb(27, 179, 65);
   border: none;
@@ -45,4 +44,11 @@ button{
 button:hover{
   background-color: white;
   color: rgb(27, 179, 65);
+}
+.b-text{
+  font-style: italic;
+  font-weight: 500;
+  background-color: rgb(27, 179, 65);
+  color: white;
+  border-radius: 10px;
 }
