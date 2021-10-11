@@ -1,8 +1,8 @@
-.vote{
-    color: green;
+button.vote{
+    background-color: green;
 }
-.vote1{
-    color: red;
+button.vote1{
+    background-color: red;
 }
 button{
     background-color: red;
