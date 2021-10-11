@@ -14,6 +14,8 @@ export class QuotesComponent implements OnInit {
           new Quote(3, 'Ezekiel Kibiego', 'Investing in tomorrow’s technology today is more critical than ever', 'Bill Gates', new Date(2021,10,8))
         ];
         
+        
+
         completeQuote(isComplete: any, index: number){
           if (isComplete) {
             this.quotes.splice(index,1);

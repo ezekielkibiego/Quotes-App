@@ -13,6 +13,8 @@ export class QuoteDetailsComponent implements OnInit {
   quote!: Quote;
   @Output() isComplete = new EventEmitter<boolean>();
 
+
+
   numberOfLikes : number = 0;
 numberOfDislikes: number = 0;
 likeButtonClick() {
