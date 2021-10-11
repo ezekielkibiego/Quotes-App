@@ -7,32 +7,27 @@
   background-color: rgba(24, 24, 26, 0.068);
   color: rgb(27, 179, 65);
   border-bottom-left-radius: 50px;
-  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
 }
 
   .toolbar {
     color: white;
     background-color: rgb(27, 179, 65);
     border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
   }
   button:hover{
   background-color: white;
   color: rgb(27, 179, 65);
 }
 
-  .toolbar img {
-    margin: 0 16px;
-    
-  }
-
   
   .card{
     background-color: rgba(24, 24, 26, 0.068);
     margin-bottom: 10px;
-    padding: 20px;
-    border-bottom-left-radius: 100px;
-    border-top-right-radius: 100px;
+    padding: 10px;
+    border-radius: 50px;
+    border-radius: 50px;
     
   }
 button{
