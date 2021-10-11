@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   color: rgb(27, 179, 65);
+  font-family: 'Niconne', cursive;
 }
 .toolbar:hover{
   background-color: rgba(24, 24, 26, 0.068);
