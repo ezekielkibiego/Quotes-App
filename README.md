@@ -6,7 +6,7 @@
 <img src="src/assets/Screenshot.png">
 
 ## Description
-This is a Quotes App that allows the use to add more quotes and also vote up or down other quotes.
+This is a Quotes application that displays different quotes then allows one to add a new quote. on each quote the user is able to upvote or downvote on that specific vote. The user is finally able to delete any quote if he/she so wishes.
 
 # Installation / Setup instruction
 
@@ -17,6 +17,13 @@ This is a Quotes App that allows the use to add more quotes and also vote up or 
 <li> Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.</li>
 </ul>
 
+# Code scaffolding
+Run ng generate component component-name to generate a new component. You can also use ng generate directive|pipe|service|class|guard|interface|enum|module.
+
+
+# Running unit tests
+Run ng test to execute the unit tests via Karma.
+
 ### Live Link
 https://ezekielkibiego.github.io/Quotes-App/
 
@@ -25,6 +32,9 @@ https://ezekielkibiego.github.io/Quotes-App/
 No known Bugs yet
 
 ## Technologies Used
+
+This project was generated with Angular CLI version 12.2.8.
+
 
 <ul>
 <li>ANGULAR</li>
