@@ -16,7 +16,7 @@ export class QuoteFormComponent implements OnInit {
   submitQuote(){
 this.addQuote.emit(this.newQuote);
 this.newQuote = new Quote(0,"","", "", new Date());
-let submitQuote = confirm(`Are you sure you want add this quote?`)
+let submitQuote = confirm(`You are about to add a new quote...`)
 
 if (submitQuote){
   this.quotes.splice(index,1)
