@@ -58,8 +58,7 @@ Click "Show More" Button:
 </ul>
 
 ## Support and contact details
-In case of any contributions or questions, email ezekiel.nyambane@student.moringaschool.com or kibiezekiel@gmail.com
-
+To get more help on the Angular CLI use ng help or go check out the Angular CLI README. For any queries feel free to contact me via my email addresses ezekiel.nyambane@student.moringaschool.com or kibiezekiel@gmail.com
 ### License
 
  #### MIT LICENCE
