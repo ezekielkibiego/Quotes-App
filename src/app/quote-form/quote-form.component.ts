@@ -11,12 +11,20 @@ export class QuoteFormComponent implements OnInit {
 
   newQuote = new Quote(0,"","", "", new Date());
 @Output() addQuote = new EventEmitter<Quote>();
+  quotes: any;
 
   submitQuote(){
 this.addQuote.emit(this.newQuote);
 this.newQuote = new Quote(0,"","", "", new Date());
+let submitQuote = confirm(`Are you sure you want add this quote?`)
 
-  }
+if (submitQuote){
+  this.quotes.splice(index,1)
+}
+}
+
+  
+  
 
   constructor() { }
 
@@ -26,4 +34,8 @@ this.newQuote = new Quote(0,"","", "", new Date());
   
 }
 
+
+function index(index: any, arg1: number) {
+  throw new Error('Function not implemented.');
+}
 
